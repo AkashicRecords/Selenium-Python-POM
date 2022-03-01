@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  qxf2pageobjectmodel:
+    image: qxf2pageobjectmodel
+    build:
+      context: .
+      dockerfile: ./Dockerfile
